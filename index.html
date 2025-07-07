@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="logo-bg.png">
+    <title>Mug Life Cafe</title>
+</head>
+<style>
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    #header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.559);
+    }
+
+    #pages {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 30px;
+    }
+
+   #pages a {
+        text-decoration: none;
+        color: rgba(165, 42, 42, 0.908);
+        font-size: 20px;
+    }
+
+    #pages a:hover {
+        color: rgb(128, 18, 18);
+        font-size: 24px;
+    }
+
+    #two {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        width: 100%;
+        background-image: url(coffee-bg.png);
+        background-size: cover;
+        width: 100%;
+        height: 800px;
+    }
+
+    button {
+        border: 1px solid black;
+        background-color: rgba(0, 0, 0, 0);
+        height: 35px;
+    }
+
+    button:hover {
+        background-color: chocolate;
+        font-size: larger;
+    }
+
+    #three {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #four {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #five{
+        background-image: url(texture.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 600px;
+    }
+    #five-one{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #five-two{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    #six {
+        background-image: url(bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #seven {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .num {
+        color: rgba(165, 42, 42, 0.458);
+        font-size: 50px;
+        font-weight: lighter;
+        font-style: italic;
+    }
+
+    .par {
+        width: 40%;
+        color: grey;
+    }
+
+    .para {
+        font-size: larger;
+        font-variant-caps: petite-caps;
+    }
+    #eight{
+        background-image: url(texture.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 600px;
+    }
+    #eight-one{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #eight-two{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    footer{
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 120px;
+    }
+    #foot a{
+        text-decoration: none;
+        color: antiquewhite;
+    }
+    #foot a:hover{
+        text-decoration: underline;
+        color: white;
+    }
+
+</style>
+
+<body>
+    <div id="header">
+        <div id="img">
+            <img src="logo.png" width="70" style="border-radius: 30% 30%;">
+        </div>
+        <div id="pages">
+            <a href="#">Home</a>
+            <a href="#">Pages</a>
+            <a href="#">Portifolio</a>
+            <a href="#">Blog</a>
+            <a href="#">Shop</a>
+            <a href="#">Elements</a>
+            <img src="cart.png" width="15">
+            <img src="search.png" width="15">
+            <img src="menu.png" width="15">
+        </div>
+    </div>
+
+    <div id="two">
+        <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+            <h1>Coffee Heaven</h1>
+            <img src="coffee.png">
+            <p>Coffee is the stress booster which decrease the stress</p>
+            <button>Shop Here</button>
+        </div>
+    </div>
+
+    <div id="three">
+        <h1>Our Delicious Offer</h1>
+        <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/title-separator.png">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        </p>
+    </div><br>
+
+    <div id="four">
+        <div id="cup">
+            <img src="cup.png">
+            <p>Types of coffee</p>
+        </div>
+        <div id="bean">
+            <img src="bean.png">
+            <p>Bean Varities</p>
+        </div>
+        <div id="pastry">
+            <img src="pastry.png">
+            <p>Coffee & Pastry</p>
+        </div>
+        <div id="paper_cup">
+            <img src="paper_cup.png">
+            <p>Coffee To Go</p>
+        </div>
+    </div><br>
+
+    <div id="five">
+
+        <div id="five-one">
+            <p style="font-variant-caps:petite-caps; font-size: 46px;">the coffee herald</p>
+            <img src="coffee.png">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore</p>
+        </div>
+
+        <div id="five-two">
+            <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                <img src="machine.png" width="40%" style="border-radius: 15%;">
+                <p id="head">prep techniques</p>
+                <p style="width: 400px;">Quisque rutrum, aenean imperdiet.
+                     Etiam ultricies nisi vel augue.
+                     Curabitur ullamcorper ultricies nisi, nam eget dui. Etiam rhoncus maecenas tempus,</p>
+                <a href="#">-Read More</a>
+            </div>
+            <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                <img src="work.png" width="40%" style="border-radius: 15%;">
+                <p id="head">french press</p>
+                <p style="width: 400px;">Quisque rutrum, aenean imperdiet.
+                     Etiam ultricies nisi vel augue. Curabitur ullamcorper 
+                     ultricies nisi, nam eget dui. Etiam rhoncus maecenas tempus,</p>                     
+                <a href="#">-Read More</a>
+
+            </div>
+            <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                <img src="3cups.png" width="40%" style="border-radius: 15%;">
+                <p id="head">turkish ibrik</p>
+                <p style="width: 400px;">Quisque rutrum, aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi, nam eget dui. Etiam rhoncus maecenas tempus,</p>
+                <a href="#">-Read More</a>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="six">
+        <img src="icon.png">
+    </div><br>
+
+    <div id="seven">
+        <div style="display: flex;flex-direction: column; align-items: center; justify-content: center;">
+            <h1 class="num">250</h1>
+            <p class="para">varities of coffee</p>
+            <p class="par">Lorem ipsum dolor sit amet, consectetuer adipiscing elit aenean</p>
+        </div>
+        <div style="display: flex;flex-direction: column; align-items: center; justify-content: center;">
+            <h1 class="num">123</h1>
+            <p class="para">Hours of Testing</p>
+            <p class="par">Lorem ipsum dolor sit amet, consectetuer adipiscing elit aenean</p>
+        </div>
+        <div style="display: flex;flex-direction: column; align-items: center; justify-content: center;">
+            <h1 class="num">321</h1>
+            <p class="para">Coffee Markets</p>
+            <p class="par">Lorem ipsum dolor sit amet, consectetuer adipiscing elit aenean</p>
+        </div>
+        <div style="display: flex;flex-direction: column; align-items: center; justify-content: center;">
+            <h1 class="num">220</h1>
+            <p class="para">Coffee brands</p>
+            <p class="par">Lorem ipsum dolor sit amet, consectetuer adipiscing elit aenean</p>
+        </div>
+    </div><br>
+
+    <div id="eight">
+        <div id="eight-one">
+            <p style="font-variant-caps:petite-caps; font-size: 46px;">the coffee herald</p>
+            <img src="coffee.png">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore</p>
+        </div>
+
+        <div id="eight-two">
+            <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/product-img-1.png" width="40%" style="border-radius: 15%;">
+                <p id="head">prep techniques</p>
+                <p>&dollar;15.00</p>
+            </div>
+            <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/product-img-3.png" width="40%" style="border-radius: 15%;">
+                <p id="head">Ethiopia Coffee</p>
+                <p>&dollar;18.00</p>
+            </div>
+            <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/product-img-5.png" width="40%" style="border-radius: 15%;">
+                <p id="head">Columbia Coffeek</p>
+                <p>&dollar;2.00</p>
+                
+            </div>
+            <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/product-img-8.png" width="40%" style="border-radius: 15%;">
+                <p id="head">guatemala coffee</p>
+                <p>&dollar;25.00</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <p style="color: white; font-size:medium; font-variant:initial;">&copy;2018 Qode Interactive, All Rights Reserved</p>
+        </div>
+        <div style="display: flex;flex-direction: row;align-items: center;justify-content: space-around ;column-gap: 20px; color: white;" id="foot">
+        <a href="#">HOME</a>
+        <a href="#">ABOUT</a>
+        <a href="#">SHOP</a>
+        <a href="#">CONTACT</a>
+        </div>
+        <div style="display: flex;flex-direction: row;align-items: center;justify-content: space-around ;column-gap: 20px;">
+            <img src="whatsapp .png" width="13px">
+            <img src="social-media.png" width="13px">
+            <img src="twitter.png" width="13px">
+            <img src="instagram.png" width="13px">
+        </div>
+    </footer>
+</body>
+
+</html>
