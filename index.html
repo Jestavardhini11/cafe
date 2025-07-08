@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="icon" href="logo-bg.png">
+    <link rel="icon" href="logo.png">
     <title>Mug Life Cafe</title>
 </head>
 <style>
@@ -18,6 +18,7 @@
         position: fixed;
         width: 100%;
         background-color: rgba(255, 255, 255, 0.559);
+        height: 70px;
     }
 
     #pages {
@@ -47,14 +48,20 @@
         background-size: cover;
         height: 800px;
     }
+    #two h1{
+        font-size: 60px;
+        font-variant-caps: all-petite-caps;
+        font-weight: 100;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
-    button {
-        border: 1px solid black;
+    }
+    #two button {
+        border: none;
         background-color: rgba(0, 0, 0, 0);
         height: 35px;
     }
 
-    button:hover {
+    #two button:hover {
         background-color: chocolate;
         font-size: larger;
     }
@@ -64,18 +71,26 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        height: 350px;
+    }
+    #three h1{
+        font-size: 60px;
+        font-variant-caps: all-petite-caps;
+        font-weight: lighter;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
     }
 
     #four {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         align-items: center;
     }
     #five{
         background-image: url(texture.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        height: 600px;
+        height: 650px;
     }
     #five-one{
         display: flex;
@@ -88,7 +103,11 @@
         align-items: center;
         justify-content: space-around;
     }
-
+    #five-two a{
+        text-decoration: none;
+        color: rgb(128, 18, 18);
+        font-size: 20px;
+    }
     #six {
         background-image: url(bg.jpg);
         background-repeat: no-repeat;
@@ -139,6 +158,52 @@
         align-items: center;
         justify-content: space-evenly;
     }
+    #nine{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #nine h1{
+        font-size: 60px;
+        font-variant-caps: all-petite-caps;
+        font-weight: lighter;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+    #ten{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #eleven{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #twelve{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-image: url(texture.jpg);
+        height: 150px;
+    }
+    #twelve h3{
+        font-size: medium;
+        font-variant-caps: all-petite-caps;
+        font-weight: lighter;
+    }
+    #twelve button{
+        background-color: rgba(165, 42, 42, 0.458);
+        color: white;
+        height: 40px;
+        width: 100px;
+        border: none;
+        font-variant-caps: all-petite-caps;
+
+    }
+    #twelve button:hover{
+        background-color: black;
+    }
     footer{
         background-color: black;
         display: flex;
@@ -159,8 +224,8 @@
 
 <body>
     <div id="header">
-        <div id="img">
-            <img src="logo.png" width="70" style="border-radius: 30% 30%;">
+        <div id="img" style="display: flex; align-items: cenetr; justify-content: center;">
+            <img src="logo-bg.png" width="70" style="border-radius: 48%;">
         </div>
         <div id="pages">
             <a href="#">Home</a>
@@ -192,28 +257,34 @@
     </div><br>
 
     <div id="four">
-        <div id="cup">
+        <div id="cup" style="display: flex;flex-direction: column; align-items: center; justify-content: center;">
             <img src="cup.png">
-            <p>Types of coffee</p>
+            <p class="para">Types of coffee</p>
+            <p class="par">Lorem ipsum dolor sit amet, consectetuer adipiscing elit aenean</p>
         </div>
-        <div id="bean">
+        <div id="bean" style="display: flex;flex-direction: column; align-items: center; justify-content: center;">
             <img src="bean.png">
-            <p>Bean Varities</p>
+            <p class="para">Bean Varities</p>
+            <p class="par">Lorem ipsum dolor sit amet, consectetuer adipiscing elit aenean</p>
         </div>
-        <div id="pastry">
+        <div id="pastry" style="display: flex;flex-direction: column; align-items: center; justify-content: center;">
             <img src="pastry.png">
-            <p>Coffee & Pastry</p>
+            <p class="para">Coffee & Pastry</p>
+            <p class="par">Lorem ipsum dolor sit amet, consectetuer adipiscing elit aenean</p>
         </div>
-        <div id="paper_cup">
+        <div id="paper_cup" style="display: flex;flex-direction: column; align-items: center; justify-content: center;">
             <img src="paper_cup.png">
-            <p>Coffee To Go</p>
+            <p class="para">Coffee To Go</p>
+            <p class="par">Lorem ipsum dolor sit amet, consectetuer adipiscing elit aenean</p>
         </div>
     </div><br>
 
     <div id="five">
 
         <div id="five-one">
-            <p style="font-variant-caps:petite-caps; font-size: 46px;">the coffee herald</p>
+            <p style="font-variant-caps:petite-caps; font-size: 50px; font-weight: 100;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        ">the coffee herald</p>
             <img src="coffee.png">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore</p>
@@ -245,7 +316,7 @@
 
             </div>
         </div>
-    </div>
+    </div> 
 
     <div id="six">
         <img src="icon.png">
@@ -276,7 +347,9 @@
 
     <div id="eight">
         <div id="eight-one">
-            <p style="font-variant-caps:petite-caps; font-size: 46px;">the coffee herald</p>
+            <p style="font-variant-caps:petite-caps; font-size: 50px; font-weight: 100;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        ">online cofee shop</p>
             <img src="coffee.png">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore</p>
@@ -296,7 +369,7 @@
             <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
                 <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/product-img-5.png" width="40%" style="border-radius: 15%;">
                 <p id="head">Columbia Coffeek</p>
-                <p>&dollar;2.00</p>
+                <p>&dollar;22.00</p>
                 
             </div>
             <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
@@ -306,6 +379,34 @@
             </div>
         </div>
     </div>
+
+    <div id="nine">
+        <div style="display: flex; align-items: center;flex-direction: column;justify-content: center;">
+            <h1>Our Sweet Gallery</h1>
+            <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/title-separator.png">
+            <p style>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+        </div>
+    </div>
+
+    <div id="ten">
+            <img src="img1.png" width="23%">
+            <img src="img2.png" width="23%">
+            <img src="img3.png" width="23%">
+            <img src="img4.png" width="23%">
+    </div><br>
+
+    <div id="eleven">
+            <img src="img5.png" width="23%">
+            <img src="img6.png" width="23%">
+            <img src="img7.png" width="23%">
+            <img src="img8.png" width="23%">
+    </div><br>
+
+    <div id="twelve">
+        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</h3>
+        <button >Contact us</button>
+    </div>
+
     <footer>
         <div>
             <p style="color: white; font-size:medium; font-variant:initial;">&copy;2018 Qode Interactive, All Rights Reserved</p>
